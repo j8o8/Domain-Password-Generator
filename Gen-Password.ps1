@@ -4,9 +4,9 @@ Domain policy compliant password generator
 .DESCRIPTION
 Generates a random password subject to all set domain password policies
 .EXAMPLE
-gen-password.ps1 -DC SV-DC01 -UserName admin -HighPriv
+Gen-Password.ps1 -DC SV-DC01 -UserName admin -HighPriv
 .EXAMPLE
-gen-password.ps1 -DC SV-DC01 -NoSpecial
+Gen-Password.ps1 -DC SV-DC01 -NoSpecial
 #>
 
 using namespace System.Management.Automation.Host
